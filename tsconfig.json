@@ -9,5 +9,10 @@
     "allowJs": true,
     "checkJs": false
   },
-  "include": ["./src/**/*"]
+  "include": [
+    "./src/**/*.tsx",
+    "./src/**/*.ts",
+    "node_modules/jest-extended/types/**/*.d.ts",
+    "custom.d.ts"
+  ]
 }
